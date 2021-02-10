@@ -9,7 +9,7 @@ def searching_color(f_c, l, r):
     return
 
 
-def searching_sub_color(s_c, c_l, l, r):
+def searching_sub_color(s_c, l, r):
     if l + r in s_c:
         return l + r
     elif r + l in s_c:
@@ -41,7 +41,7 @@ while len(strings) > 1:
     if color:
         colors.append(color)
         continue
-    sub_colors = searching_sub_color(second_color, colors, left, right)
+    sub_colors = searching_sub_color(second_color, left, right)
     if sub_colors:
         colors.append(sub_colors)
         continue
