@@ -38,14 +38,12 @@ while len(strings) > 1:
     left = strings.popleft()
     middle = len(strings) // 2
     color = searching_color(first_color, left, right)
+    sub_colors = searching_sub_color(second_color, left, right)
     if color:
         colors.append(color)
-        continue
-    sub_colors = searching_sub_color(second_color, left, right)
-    if sub_colors:
+    elif sub_colors:
         colors.append(sub_colors)
-        continue
-    if not color:
+    else:
         right = right[:-1]
         left = left[:-1]
         if not right == "":
