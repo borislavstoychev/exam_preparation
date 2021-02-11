@@ -1,8 +1,8 @@
-def find_sub_matrix(n_l, n):
-    subs_matrix = []
+def find_sub_list(n_l, n):
+    subs_list = []
     for i in range(n):
-        subs_matrix.append(n_l[i:len(n_l):n])
-    return subs_matrix
+        subs_list.append(n_l[i:len(n_l):n])
+    return subs_list
 
 
 def find_strongest(r):
@@ -16,11 +16,11 @@ def find_strongest_eggs(*args):
     result = []
     nums_list, n = args
     if n > 1:
-        sub_matrix = find_sub_matrix(nums_list, n)
-        for row in sub_matrix:
-            stronger_egg = find_strongest(row)
-            if stronger_egg:
-                result.append(stronger_egg)
+        sub_list = find_sub_list(nums_list, n)
+        for row in sub_list:
+            egg = find_strongest(row)
+            if egg:
+                result.append(egg)
     else:
         result = [find_strongest(nums_list)]
     return result
