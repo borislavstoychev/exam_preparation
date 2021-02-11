@@ -12,7 +12,7 @@ def find_strongest(r):
     return
 
 
-def find_strongest_eggs(*args, ):
+def find_strongest_eggs(*args):
     result = []
     nums_list, n = args
     if n > 1:
@@ -26,7 +26,7 @@ def find_strongest_eggs(*args, ):
     return result
 
 
-test = ([-1, 7, 3, 15, 2, 12], 2)
+test = ([-1, 7, 3, 15, 2, 12, 6, 7, 8], 3)
 print(find_strongest_eggs(*test))
 test = ([-1, 0, 2, 5, 2, 3], 2)
 print(find_strongest_eggs(*test))
