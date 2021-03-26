@@ -3,7 +3,9 @@
 You will be provided with a skeleton which includes all the folders and files that you will need.**
 
 ***Note: You are not allowed to change the folder and file structure and change their names!***
+
 ![pic](https://user-images.githubusercontent.com/67734870/112547872-08762900-8dc4-11eb-98bb-1ffafc29c1cb.png)
+
 ## Judge Upload
 [***For the first 2 problems, create a zip file with the name project and upload it to the judge system
 For the last problem, create a zip file with the name tests and upload it to the judge system
