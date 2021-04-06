@@ -11,7 +11,7 @@
 #### For the first 2 problems, create a zip file with the project folder and upload it to the judge system
 #### For the last problem, create a zip file with the tests folder and upload it to the judge system
 
-## Structure (Problem 1) and Functionality (Problem 2) - [Solution](https://github.com/borislavstoychev/exam_preparation/tree/main/exams_OOP/survivor/project)
+## Structure (Problem 1) and Functionality (Problem 2) - [Solution](https://github.com/borislavstoychev/exam_preparation/tree/main/exams_OOP/bunker_games/project)
 Our first task is to implement the structure and functionality of all the classes (properties, methods, inheritance, etc.)
 ##    1. Class Supply
 In the file supply.py the class Supply should be implemented:
