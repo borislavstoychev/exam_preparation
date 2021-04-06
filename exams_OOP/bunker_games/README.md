@@ -99,5 +99,5 @@ Remove the last supply added to the supplies list from the given type (if the su
 ### next_day()
     • First, the needs of each survivor get reduced by the result of multiplying his/her age by 2
     • Then we need to sustain each survivor by giving him/her one food and one water supply
-## Problem 3. Unit Tests - [Solution](https://github.com/borislavstoychev/exam_preparation/tree/main/exams_OOP/survivor/tests)
+## Problem 3. Unit Tests - [Solution](https://github.com/borislavstoychev/exam_preparation/tree/main/exams_OOP/bunker_games/tests)
 ### *You will be provided with another skeleton for this problem. Open the new skeleton as a new project and write tests for the PaintFactory class. The class will have some methods, fields and one constructor, which are working properly. You are NOT ALLOWED to change any class. Cover the whole class with unit tests to make sure that the class is working as intended. Submit only the test folder.*
