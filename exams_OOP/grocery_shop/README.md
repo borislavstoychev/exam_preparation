@@ -25,6 +25,7 @@ In the product.py file the class Product should be implemented. It is a base cla
     • quantity: int - passed upon initialization. If the quantity is equal to or below 0, raise a ValueError with message "Quantity cannot be equal to or below zero."
 ### Methods
 ```__init__(name: str, quantity: int)```
+
 The __init__ method should have a name and a quantity. 
 
 ##    2. Class Drink
@@ -33,6 +34,7 @@ In the file drink.py the class Drink should be implemented.
 The class should inherit from the Product class.
 ### Methods
 ```__init__(name: str)```
+
 An instance of the Drink class will have name and quantity of 10.
 
 ##    3. Class Food
@@ -41,6 +43,7 @@ In the food.py file the Food class should be implemented
 The class should inherit from the Product class.
 ### Methods
 ```__init__(name: str)```
+
 An instance of the Food class will have name and quantity of 15.
 
 ##    4. Class ProductRepository
