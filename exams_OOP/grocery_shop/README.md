@@ -5,6 +5,7 @@ You will be provided with a skeleton which includes all the folders and files th
 
 ***Note: You are not allowed to change the folder and file structure and change their names!***
 ![b](https://user-images.githubusercontent.com/67734870/115264966-74d41600-a13f-11eb-9992-a592c0767d35.png)
+
 ## Judge Upload
 ***For the [first 2 problems](https://github.com/borislavstoychev/exam_preparation/tree/main/exams_OOP/grocery_shop/project), create a zip file with the name project and upload it to the judge system
 For the last problem, create a zip file with the name tests and upload it to the judge system
