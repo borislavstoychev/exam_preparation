@@ -1,19 +1,18 @@
 def stock_availability(main_list, command, *args):
     if command == "delivery":
-        return main_list + list(args)
+        main_list += list(args)
     elif command == "sell":
         try:
             if args:
-                number = int(*args)
+                number = int(args[0])
                 main_list = main_list[number:]
             else:
                 main_list = main_list[1:]
-            return main_list
         except ValueError:
             for sub in args:
                 while sub in main_list:
                     main_list.remove(sub)
-                return main_list
+    return main_list
 
 
 print(stock_availability(["choco", "vanilla", "banana"], "delivery", "caramel", "berry"))
